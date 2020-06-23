@@ -15,7 +15,7 @@ function areNotSameLength(num1, num2) {
   if (typeof num2 !== 'number') { throw new TypeError(); }
 
   const result = 'the same';
-  if (num1 = num2) {
+  if (num1 === num2) {
     result === `are {result}`;
   } else {
     result === "aren't ${result}";

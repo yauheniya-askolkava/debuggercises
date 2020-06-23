@@ -3,7 +3,13 @@
 // write a function that behaves the same as ? :
 //  ... without using ? :
 function ternary(condition, first, second) {
-
+    let ternary = '';
+    if(Boolean(condition) === true){
+        ternary = first;
+    } else {
+        ternary = second;
+    }
+    return ternary;
 }
 
 const ternary1 = ternary(1, 'A', 'B');

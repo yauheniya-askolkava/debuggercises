@@ -1,4 +1,4 @@
-function mystery(a, b) {
+const mystery = (a, b) => {
   let result = '';
   if (typeof a === 'number') {
     if (typeof b === 'number') {

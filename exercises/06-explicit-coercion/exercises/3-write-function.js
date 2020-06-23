@@ -6,7 +6,10 @@
    ===
 */
 function mystery(x, y) {
+  if (typeof x === 'Number' && y === 'Number') { throw new TypeError('x cannot be a String'); }
 
+  const number1 = Number(x)=== Number(y);
+  return number1;
 }
 
 // all of the test cases are correct

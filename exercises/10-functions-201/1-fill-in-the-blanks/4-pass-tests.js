@@ -11,7 +11,7 @@
 function mystery(a) {
   // no need to check a , they can be any type
 
-  const result = _;
+  const result = isNaN(a);
 
   if (typeof result !== 'boolean') { throw new TypeError(); }
   return result;
